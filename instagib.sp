@@ -23,7 +23,7 @@ public Plugin:myinfo = {
     author = "mphe",
     description = "Same class, same speed, railguns, instant kills",
     version = PLUGIN_VERSION,
-    url = ""
+    url = "https://github.com/mphe/TF2-instagib"
 };
 
 
