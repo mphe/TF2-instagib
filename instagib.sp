@@ -203,6 +203,7 @@ InitInstagib()
     for (new i = 1; i <= MaxClients; i++)
         if (IsClientInGame(i) && !IsFakeClient(i))
         {
+            TF2_RegeneratePlayer(i);
             OnClientPutInServer(i);
             SetupPlayer(i);
         }
